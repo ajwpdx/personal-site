@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+   
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  button {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    padding: 0 2rem;
+    color:black;
+}
